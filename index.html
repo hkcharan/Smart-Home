@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="home">
+        <div class="side-nav">
+            <div class="nav-logo">
+                <img width="55" height="55" src="https://img.icons8.com/stencil/32/home.png" alt="home"/>
+                <h3>SMART HOME</h3>
+            </div>
+
+            <div class="items-nav">
+                <ul>
+                    <li><a href=""><img width="30" height="30" src="https://img.icons8.com/fluency/48/home-page.png" alt="home-page"/><p>DASHBOARD</p></a></li>
+                    <li><a href=""><img width="30" height="30" src="https://img.icons8.com/fluency/48/user-male-circle--v1.png" alt="user-male-circle--v1"/><p>USER</p></a></li>
+                    <li><a href=""><img width="30" height="30" src="https://img.icons8.com/fluency/20/ptz-camera.png" alt="ptz-camera"/><p>CAMERAS</p></a></li>
+                    <li><a href=""><img width="30" height="30" src="https://img.icons8.com/fluency/48/task.png" alt="task"/><p>TASKS</p></a></li>
+                    <li><a href=""><img width="30" height="30" src="https://img.icons8.com/fluency/48/settings.png" alt="settings"/><p>SETTINGS</p></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="middle-container">
+            <div class="abc">
+                <div class="box1">
+                    <div class="index">
+                        <h3>WATER PUMP</h3>
+                        <img class="itemm-img" src="images/pump.png" alt="">
+                        <span class="switch">
+                            <input type="checkbox">
+                            <label for="switcher"></label>
+                        </span>
+                    </div>
+
+                    <div class="index">
+                        <h3>WASHING MACHINE</h3>
+                        <img class="itemm-img" src="images/washing machine.png" alt="">
+                        <span class="switch">
+                            <input type="checkbox">
+                            <label for="switcher"></label>
+                        </span>
+                    </div>
+
+                </div>
+
+                <div class="box2">
+                    <h3>Power Consumption</h3>
+                    <canvas id="myChart"></canvas>
+                </div>
+            </div>
+
+            <div class="weather-container">
+                <div class="weather">
+                    <img width="85" height="85" src="https://img.icons8.com/fluency/85/partly-cloudy-day.png" alt="partly-cloudy-day"/>
+                    <div class="name">
+                        <h1>23°C</h1>
+                        <h4>Partly Sunny</h4>
+                    </div>
+                </div>
+                    
+                <div class="data">
+                        <div class="indoor-temp same">
+                            <img width="40" height="40" src="https://img.icons8.com/fluency/48/thermometer.png" alt="thermometer"/>
+                            <h6>Indoor Temp</h6>
+                            <h4>21°C</h4>
+                        </div>
+                        <div class="line"></div>
+                        <div class="outdoor-temp same">
+                            <img width="40" height="40" src="https://img.icons8.com/fluency/48/temperature.png" alt="temperature"/>
+                            <h6>Outdoor Temp</h6>
+                            <h4>23°C</h4>
+                        </div>
+                        <div class="line"></div>
+                        <div class="humidity same">
+                            <img width="40" height="40" src="https://img.icons8.com/fluency/48/dew-point.png" alt="dew-point"/>
+                            <h6>Humidity</h6>
+                            <h4>56%</h4>
+                        </div>
+                        <div class="line"></div>
+                        <div class="wind-speed same">
+                            <img width="40" height="40" src="https://img.icons8.com/fluency/48/wind.png" alt="wind"/>
+                            <h6>Wind Speed</h6>
+                            <h4>6mph</h4>
+                        </div>
+                </div>
+
+                <div class="date_time-container">
+                    <div class="time-container">
+                        <img width="50" height="50" src="https://img.icons8.com/fluency/35/clock--v1.png" alt="clock--v1"/>
+                        <h1 id="current-time">12:00:00</h1>
+                    </div>
+                    <div class="line"></div>
+                    <div class="date-container">
+                        <img width="50" height="50" src="https://img.icons8.com/fluency/50/calendar--v1.png" alt="calendar--v1"/>
+                        <div class="date-data">
+                            <h1 id="dayname">Day</h1>
+                            <h1 id="date">month 0, 0000</h1>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="room-container">
+            <div class="barchart">
+                <h3>Electricity Usage</h3>
+                <canvas id="power"></canvas>
+            </div>
+
+            <div class="rooms">
+                <div class="living-room room">
+                    <a href="living.html">LIVING ROOM</a>
+                </div>
+                <div class="bedroom room">
+                    <a href="bedroom.html">BEDROOM</a>
+                </div>
+                <div class="kitchen room">
+                    <a href="kitchen.html">KITCHEN</a>
+                </div>
+                <div class="bathroom room">
+                    <a href="bathroom.html">BATHROOM</a>
+                </div>
+                <div class="add room">
+                    <img width="44" height="44" src="https://img.icons8.com/fluency/48/plus.png" alt="plus"/>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <script src="chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
