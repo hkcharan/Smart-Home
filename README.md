@@ -21,7 +21,7 @@ A responsive and interactive Smart Home Control Dashboard built using **HTML**, 
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/smart-home-dashboard.git
+   git clone https://github.com/hkcharan/smart-home-dashboard.git
    ```
 2. Navigate to the project directory:
    ```bash
