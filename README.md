@@ -17,20 +17,6 @@ A responsive and interactive Smart Home Control Dashboard built using **HTML**, 
 - **JavaScript**: Logic for dynamic updates, interactions, and API integrations (e.g., weather data).
 - **Chart.js**: Visualization of power consumption and other data in interactive charts.
 
-## 📸 Screenshots
-
-### Dashboard Overview  
-![Dashboard Overview](./Screenshot_2023-12-04_225329.png)  
-*Displays the main interface with active devices, weather information, and navigation options.*
-
-### Weather and Active Devices  
-![Weather and Active Devices](./Screenshot_2023-12-04_225347.png)  
-*Real-time weather updates alongside a list of currently active devices.*
-
-### Power Consumption Analytics  
-![Power Consumption Analytics](./Screenshot_2023-12-04_225412.png)  
-*Dynamic chart visualization showcasing energy consumption trends over time.*
-
 ## 🚀 How to Run the Project
 
 1. Clone the repository:  
