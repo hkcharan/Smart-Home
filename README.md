@@ -38,9 +38,9 @@ A responsive and interactive Smart Home Control Dashboard built using **HTML**, 
    git clone https://github.com/your-username/smart-home-dashboard.git
    ```
 2. Navigate to the project directory:
-```bash
-cd smart-home-dashboard
-```
+   ```bash
+   cd smart-home-dashboard
+   ```
 3. Open the index.html file in any modern web browser:
 Double-click the index.html file or right-click and select "Open With" your preferred browser.
 
